@@ -1,0 +1,143 @@
+.xd {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rec {
+    width: 200px;
+    height: 150px;
+    background: #0b3dc6;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+#c1 {
+    background: #ffffff;
+    height: 250px;
+    width: 250px;
+}
+
+#c2 {
+    background: #1647cd;
+    height: 150px;
+    width: 150px;
+}
+
+#c3 {
+    background: #EEB850;
+    height: 50px;
+    width: 50px;
+}
+
+.figura2 {
+    margin-top: 100px;
+    background: #8e0dac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figura2 div {
+    width: 100px;
+    height: 100px;
+    background: #eddf4d;
+    border-radius: 0 0 50% 50%;
+    margin-top: 100px;
+}
+
+#mirror {
+    transform: scaleY(-1);
+    margin-top: -100px;
+}
+
+.figura3 {
+    margin-top: 700px;
+    background: #000000;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figura3 div {
+    margin-top: 600px;
+    background: #2fcbd9;
+    position: absolute;
+}
+#rectangle {
+    width: 100%;
+    height: 150px;
+}
+#square {
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 0px 50px #222730;
+}
+.figura3 #circle2 {
+    background: #393E46;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.figura4 {
+    
+    background: #d44cf3;
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.figura4 div {
+    width: 100px;
+    height: 150px;
+    background: #F7EC7D;
+    border-radius: 50px 50px 0px 0px;
+}
+#middle {
+    height: 250px;
+}
+.figura4 div:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #f06c29;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 20px #ae1840;
+}
+#middle:before {
+    background: #c04969;
+    box-shadow: inset 0px 0px 0px 20px #d07a4f
+}
+
+.figura5 {
+    background: #D25B70;
+    display: grid;
+    margin-top: 300px;
+    place-items: center;
+}
+.figura5  div {
+    width: 100px;
+    height: 100px;
+    background: #ffdd03;
+    position: absolute;
+    translate: 0px 50px;
+}
+#green {
+    translate: -56px -42px;
+    rotate: 37deg;
+    scale: 0.6;
+    background: #54cbbb;
+}
+#yellow {
+    translate: 42px -56px;
+    rotate: 37deg;
+    scale: 0.8;
+    background: #F6DF96;
+}

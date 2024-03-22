@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+  }
+  .container1{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+  }
+  .caja1{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container2{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja2{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container3{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .caja3{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container4{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+  .caja4{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container5{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .caja5{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container6{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    flex-wrap:nowrap;
+  }
+  .caja6{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container7{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .caja7{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container8{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .caja8{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container9{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .caja9{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container10{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: flex-start ;
+  }
+  .caja10{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container11{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .caja11{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container12{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .caja12{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container13{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .caja13{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container14{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-items: center
+  }
+  .caja14{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container15{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .caja15{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container16{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-items: flex-end
+  }
+  .caja16{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container17{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-items: stretch;
+  }
+  .caja17{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container18{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-items: baseline;
+  }
+  .caja18{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container19{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-content: flex-start;
+  }
+  .caja19{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container20{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-content: flex-end
+  }
+  .caja20{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container21{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-content: center
+  }
+  .caja21{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container22{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-content: space-between
+  }
+  .caja22{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container23{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    align-content: space-around
+  }
+  .caja23{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container24{
+    background: yellow;
+    border: 5px solid black;
+    width: 90%;
+    height: 700px;
+    margin:  15px auto;
+    padding: 15px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .caja24{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black"";
+  }
+  

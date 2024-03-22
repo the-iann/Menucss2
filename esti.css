@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .container{
+    width:960px;
+    height:720px;
+    background-color:LightSkyBlue;
+    margin:0 auto;
+    position:relative;
+  }
+  .casa{
+    width:350px;
+    height:280px;
+    background-color:SandyBrown ;
+    position:absolute;
+    bottom: 100px; /* Ajusta la posición de la casa para que toque el piso */
+    left:20%;
+  }
+  .tejado{
+     width:390px;
+    height:60px;
+   border-bottom: 50px solid maroon;
+    position:absolute;
+    bottom:360px;
+    left:18%;
+  }
+.ventana1{
+    width:80px;
+    height:70px;
+    background-color:whitesmoke;
+    position:absolute;
+    bottom:170px;
+    left:50%;
+}
+.barrote1{
+    width:80px;
+    height:10px;
+    background-color:silver;
+    position:absolute;
+    bottom:195px;
+    left:50%;
+}
+  .barrote4{
+    width:70px;
+    height:10px;
+    background-color:silver;
+    position:absolute;
+    bottom:199px;
+    left:50%;
+    transform:rotate(90deg);
+  }
+
+  .puerta{
+    width:80px;
+    height:130px;
+    background-color:IndianRed ;
+    position:absolute;
+    bottom:0;
+    left:38%;
+  }
+  .pomo{
+     width:10px;
+    height:10px;
+    background-color:GoldenRod;
+    border-radius:50%;
+    position:absolute;
+    bottom:50px;
+    left:10%;
+  }
+  
+  .chimenea{
+    width:30px;
+    height:70px;
+    background-color:Sienna;
+    position:absolute;
+    bottom:400px;
+    left:50%;
+    transform:rotate(0deg)
+  }
+  .sol{
+    width:100px;
+    height:100px;
+    background-image:radial-gradient(LightSalmon ,gold,yellow);
+    border-radius:50%;
+    position:absolute;
+    top:50px;
+    right:5%;
+    box-shadow:10px 0   px 300px Khaki;
+  }
+  .tronco{
+    background:RosyBrown ;
+      width:36px;
+    height:270px;
+    position:absolute;
+    bottom:75px;
+    left:80%;
+  }
+  .copa{
+    background:SeaGreen;
+    width:139px;
+    height:200px;
+    position:absolute;
+    bottom:275px;
+    left:74.6%;
+    border-radius:45%;
+  }
+  .copa2{
+     background:SeaGreen;
+    width:130px;
+    height:200px;
+    position:absolute;
+    bottom:375px;
+    left:75%;
+    border-radius:100%;
+  }
+  .manzana1,.manzana2,.manzana3{
+    background:red;
+   width:15px;
+   height:15px;
+   position:absolute;
+    border-radius:50%;  
+  }
+  .manzana1{
+    bottom:65px;
+    left:75%;
+  }
+  .manzana2{
+    bottom:204px;
+    left:35%;
+  }
+  .manzana3{
+    bottom:104px;
+    left:15%;
+}
+
+.tronco2{
+  background:RosyBrown ;
+    width:36px;
+  height:270px;
+  position:absolute;
+  bottom:75px;
+  left:10%;
+}
+.copa3{
+  background:SeaGreen;
+  width:139px;
+  height:200px;
+  position:absolute;
+  bottom:275px;
+  left:4%;
+  border-radius:45%;
+}
+.copa4{
+   background:SeaGreen;
+  width:130px;
+  height:200px;
+  position:absolute;
+  bottom:375px;
+  left:4%;
+  border-radius:100%;
+}
+.manzana12,.manzana22,.manzana32{
+  background:red;
+ width:15px;
+ height:10px;
+ position:absolute;
+  border-radius:50%;  
+}
+.manzana12{
+  bottom:60px;
+  left:75%;
+}
+.manzana22{
+  bottom:24px;
+  left:35%;
+}
+.manzana32{
+  bottom:104px;
+  left:15%;
+}
+
+.floor {
+    width: 100%;
+    height: 100px; /* Altura del piso */
+    background-color: LimeGreen; /* Color del piso */
+    position: absolute;
+        bottom: 0;
+  }
+  
+  /* Agregar estilos para las nubes */
+  .cloud {
+    width: 120px; /* Ancho de la nube */
+    height: 60px; /* Altura de la nube */
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px; /* Posición vertical de las nubes */
+    left: 200px; /* Posición horizontal de las nubes */
+    opacity: 0.8;
+  }
+  .cloud2 {
+    width: 120px; /* Ancho de la nube */
+    height: 60px; /* Altura de la nube */
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px; /* Posición vertical de las nubes */
+    left: 400px; /* Posición horizontal de las nubes */
+    opacity: 0.8;
+  }
+
+  .stickman {
+    position: absolute;
+    bottom: 100px;
+    left: 18%; /* Posición horizontal del stickman */
+    transform: translateX(-50%);
+  }
+  
+  .head, .body, .arm, .leg {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .head {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .body {
+    width: 20px;
+    height: 40px;
+  }
+  
+  .arms {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .legs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .arm, .leg {
+    width: 5px;
+    height: 20px;
+  }

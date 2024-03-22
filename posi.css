@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#margin div{
+    width: 200px;
+    height:200px;
+    background: red;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px darkred;
+    margin: 45px;
+    padding: 35px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#margin #nolose{
+    background: rgba(255, 0, 0, 0.7);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#margin #Lol{
+    background: rgba(0, 255, 0, 0.5);
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+} 
+
+#margin{
+    background: url(img/fondo-inicio.jpg);
+    margin: 100%px;
+}
+
+#margin #fijo{
+    background: rgba(255, 0, 0, 0.7);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#margin #lex{
+    background: rgba(255, 0, 0, 0.7);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 2px ridge black;
+    box-shadow: -5px 5px 30px black;
+    margin: 100px;
+    padding: 100px;
+}
+#Yes{
+    font-size: 1em;
+    width: 10em;
+        height: 40px;
+        background-color: peru;
+        border: 30px inherit black ;
+}
+
+#No{
+    width: 10ex;
+        height: 45ex;
+        background-color: #C0C0C0;
+        border: 30px inherit black ;
+}
+
+#no2{
+width: 71ch;
+height: 40ch;
+background-color: #FAB;
+}
+
+#XD{
+    width: 70rem;
+        height: 30rem;
+        background-color: rgb(43, 119, 226);
+        border: 30px inherit black ;
+}
+#XD2{
+    width: 10%;
+        height: 20%;
+        background-color: rgb(30%, 20%, 100%);
+        border: 30px inherit black ;
+}
+    #Mom{
+        width: 70px;
+        height: 40px;
+        background-color: rgba(255, 99, 71, 0.5);
+        border: 30px inherit black ;
+    }
+    #Mom2{
+        width: 70cm;
+        height: 10cm;
+        background-color: rgba(100%, 10%, 0%, 1);
+    }
+    #wtf1{
+        width: 70mm;
+        height: 40mm;
+        background: linear-gradient(to right,blue , pink);
+        border: 30px inherit black ;
+    }
+    #wtf2{
+        width: 70Q;
+        height: 60q;
+        background: linear-gradient(to bottom right , blue , pink);
+        border: 30px inherit black ;
+    }
+    #wtf3{
+        width: 70in;
+        height: 40in;
+        background: linear-gradient(70deg, blue , pink);
+        border: 30px inherit black ;
+    }
+    #wtf4{
+        width: 30pc;
+        height: 40pc;
+        background: linear-gradient(red, yellow, blue , orange );
+        border: 30px inherit black ;
+    }
+    #wtf5{
+        width: 600pt;
+        height: 100pt;
+        background: linear-gradient(blue, 10%, pink);
+        border: 30px inherit black ;
+    }
+    
